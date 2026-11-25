@@ -6,6 +6,14 @@
 
 worst-fix is a tiny program that writes one commit message to a file: the fix for a bug that only ever fired on leap day — delete February 29. The repair works only by amputating the day the bug lived on.
 
+The message itself is the whole point. It reads like a real commit subject typed at the end of a bad day: the first clause states the bug's impossibly narrow trigger, and the second clause states the repair with a straight face. Nothing in it explains the joke or apologises for it — the fix is worse than the bug, and the message knows it.
+
+## The line
+
+```text
+fix: the bug only happened on leap day, we deleted February 29
+```
+
 ## Run it
 
 ```sh
